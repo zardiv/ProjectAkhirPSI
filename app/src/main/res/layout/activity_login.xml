@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bunga Laundry"
+        android:textAlignment="center"
+        android:padding="100dp"
+        android:textSize="30sp"
+        android:textColor="#5AA9E6"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="ID Pegawai"
+        />
+
+    <EditText
+        android:id="@+id/idpegawai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="#EEEEEE"
+        android:hint="Masukkan ID Pegawai"
+        android:padding="10dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="Sandi"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/sandi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="#EEEEEE"
+        android:hint="Masukkan Sandi"
+        android:padding="10dp"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#5AA9E6"
+        android:text="MASUK" />
+
+</LinearLayout>

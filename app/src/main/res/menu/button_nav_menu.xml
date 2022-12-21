@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Data Pelanggan"
+        android:icon="@drawable/pelanggan"
+        android:id="@+id/data"/>
+    <item android:title="Cucian"
+        android:icon="@drawable/cucian"
+        android:id="@+id/cucian"/>
+    <item android:title="Manajemen"
+        android:icon="@drawable/manajemen"
+        android:id="@+id/manajemen"/>
+</menu>

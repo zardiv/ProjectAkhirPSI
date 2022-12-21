@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="370dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/logoBungaLaundry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="105dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_vertical" />
+
+    <LinearLayout
+        android:id="@+id/alamat"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoBungaLaundry"
+        android:elevation="5dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/namaAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/detailAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jl. Candi Panggung No.22, Mojolangu, Kec. Lowokwaru, Kota Malang, Jawa Timur"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/buttonAlamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:backgroundTint="#48B8F4"
+            android:layout_marginLeft="220dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/jamOperasional"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alamat"
+        android:elevation="5dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/namaJam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jam Operasional"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/detailJam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="07.00-20.00"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/detailJam2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/buttonJam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:backgroundTint="#48B8F4"
+            android:layout_marginLeft="220dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Kontak"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jamOperasional"
+        android:elevation="5dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/namaKontak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kontak"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/detailKontak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+62 8571048115"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/emailKontak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bunga@gmail.com"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/buttonKontak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:backgroundTint="#48B8F4"
+            android:layout_marginLeft="220dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kelolaLayanan"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Kontak"
+        android:elevation="5dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/namaKelola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kelola Layanan"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/detailKelola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CKS1 = Rp 7.000/kg"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/detailKelola2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CKS2 = Rp 6.000/kg ..."
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/buttonKelola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:backgroundTint="#48B8F4"
+            android:layout_marginLeft="220dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
